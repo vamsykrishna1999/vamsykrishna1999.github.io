@@ -1,0 +1,149 @@
+
+
+.headsection{
+    display: flex;
+    
+    padding: 2.5rem;
+    padding-top: 3;
+    position: relative;
+}
+
+.headsection img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 10px;
+    border-color: white;
+    border-style: solid;
+    
+}
+
+.headtitle h1{
+    margin-top: 10px;
+    font-size: 70px;
+    letter-spacing: 0.5rem;
+  color: var(--main-tcolor);
+    
+}
+
+.headtitle span , .headtitle p{
+    margin-left: 8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headtitle p{
+    font-size: 2rem;
+    opacity: 60%;
+}
+
+.headdesign{
+    width: 200px;
+    height: 200px;
+    background-color: var(--main-tcolor);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+i{
+    background-color: var(--main-tcolor);  
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    
+
+}
+.left-container h4{
+    background-color: var(--main-tcolor);
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+.right-container h4{
+    background-color: var(--main-tcolor);
+    text-align: center;
+    padding: 3px;
+    color: white; 
+
+}
+
+@media screen and (max-width:1050px){
+    .headsection h1{
+        font-size: 40px;
+    }
+    
+    .headsection img{
+        width: 220px;
+        height: 220px; ;
+    }
+    .headdesign{
+        width: 100px;
+        height: 100px;
+    }
+    .headtitle p{
+        font-size: 1.5rem;
+    }
+    .headtitle span , .headtitle p{
+        margin-left: 6rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .headsection{
+        padding: 1rem;
+    }
+   
+}
+
+@media screen and (max-width:775px){
+    .headsection h1{
+        font-size: 35px;
+    }
+    
+    .headsection img{
+        width: 180px;
+        height: 180px; ;
+
+}
+.headtitle span , .headtitle p{
+    margin-left: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headtitle p{
+    font-size: 1rem;
+}
+.headsection{
+    padding: 30px;
+}
+
+}
+
+@media screen and (max-width:430px){
+
+.headsection h1{
+        font-size: 22px;
+    }
+    
+    .headsection img{
+        width: 120px;
+        height: 120px; ;
+
+}
+.headtitle span , .headtitle p{
+    margin-left: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headtitle p{
+    font-size: 0.7rem;
+}
+.headdesign{
+    width: 80px;
+    height: 80px;
+}
+.headsection{
+    padding: 15px;
+}
+}
