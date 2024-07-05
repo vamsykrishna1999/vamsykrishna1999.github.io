@@ -69,6 +69,10 @@ i{
 
 }
 
+.linespace li{
+    padding-top: 10px;
+}
+
 @media screen and (max-width:1050px){
     .headsection h1{
         font-size: 40px;
